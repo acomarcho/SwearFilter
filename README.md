@@ -3,6 +3,8 @@ A desktop application for swear word detection using brute force pattern matchin
 
 Made using Electron.
 
+Wordlist is powered by https://github.com/MauriceButler/badwords.
+
 # Screenshot
 
 ![image](https://user-images.githubusercontent.com/29671825/169492144-00a2527e-9115-4141-bb8a-4120128ac01b.png)
