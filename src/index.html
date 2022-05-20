@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>SwearFilter</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="appHeading">SwearFilter 👮</h1>
+      <p>Wordlist powered by the node module 'badwords'</p>
+      <div class="topArea">
+        <p>Insert text below:</p>
+        <form>
+          <textarea name="inputArea" id="inputArea" class="inputArea" placeholder="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, iure!" spellcheck="false"></textarea>
+          <button type="submit" class="submitBtn">Filter!</button>
+        </form>
+      </div>
+      <div class="bottomArea">
+        <p>Result will be shown below:</p>
+        <form>
+          <textarea name="resultArea" id="resultArea" class="resultArea" readonly spellcheck="false"></textarea>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
